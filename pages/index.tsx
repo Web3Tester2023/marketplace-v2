@@ -95,7 +95,7 @@ const IndexPage: NextPage<Props> = ({ ssr }) => {
               href="https://blurclassic.online"
               target="_blank"
             >
-              <Button color="gray3">Claim your free BLC Token</Button>
+              <Button color="gray3">Claim your free BlurC Token</Button>
             </a>
           </Flex>
         )}
