@@ -34,23 +34,23 @@ class MyDocument extends Document {
         {/* Favicon */}
         <link
           rel="shortcut icon"
-          type="image/svg"
-          href="https://marketplace.reservoir.tools/reservoir.svg"
+          type="image/png"
+          href="https://marketplace.blurclassic.online/avatar.png"
         />
 
         {/* Reservoir meta tags */}
-        <meta property="reservoir:title" content="Reservoir Market" />
-        <meta property="reservoir:icon" content="/reservoir-source-icon.png" />
+        <meta property="blurclassic:title" content="blurclassic Market" />
+        <meta property="blurclassic:icon" content="https://marketplace.blurclassic.online/avatar.png" />
         <meta
-          property="reservoir:token-url-mainnet"
+          property="blurclassic:token-url-mainnet"
           content="/collection/ethereum/${contract}/${tokenId}"
         />
         <meta
-          property="reservoir:token-url-goerli"
+          property="blurclassic:token-url-goerli"
           content="/collection/goerli/${contract}/${tokenId}"
         />
         <meta
-          property="reservoir:token-url-polygon"
+          property="blurclassic:token-url-polygon"
           content="/collection/polygon/${contract}/${tokenId}"
         />
         <body>
