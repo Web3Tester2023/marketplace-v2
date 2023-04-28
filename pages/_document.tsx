@@ -35,12 +35,12 @@ class MyDocument extends Document {
         <link
           rel="shortcut icon"
           type="image/png"
-          href="https://marketplace.blurclassic.online/avatar.png"
+          href="https://blurclassic.online/avatar.png"
         />
 
         {/* Reservoir meta tags */}
         <meta property="blurclassic:title" content="blurclassic Market" />
-        <meta property="blurclassic:icon" content="https://marketplace.blurclassic.online/avatar.png" />
+        <meta property="blurclassic:icon" content="https://blurclassic.online/avatar.png" />
         <meta
           property="blurclassic:token-url-mainnet"
           content="/collection/ethereum/${contract}/${tokenId}"
