@@ -33,7 +33,7 @@ const SectionLink: FC<SectionLinkProps> = ({ name, href }) => (
 const developerSectionLinks = [
   {
     name: 'Twitter',
-    href: 'https://twitter.com/BlurClassic',
+    href: 'https://twitter.com/BlurC_Token',
   },
   {
     name: 'Telegram',
