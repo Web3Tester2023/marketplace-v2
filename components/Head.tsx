@@ -15,7 +15,7 @@ type Props = {
  */
 export const Head: FC<Props> = ({
   ogImage = '#',
-  title = 'BlurClassic NFT Market | lurClassic NFT marketplace is an NFT marketplace aggregator & NFT listing platform',
+  title = 'BlurClassic NFT Market | BlurClassic NFT marketplace is an NFT marketplace aggregator & NFT listing platform',
   description = 'BlurClassic NFT marketplace is an NFT marketplace aggregator & NFT listing platform.',
 }) => {
   return (
