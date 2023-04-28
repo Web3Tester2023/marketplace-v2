@@ -61,7 +61,7 @@ const Navbar = () => {
           <Link href="/">
             <Box css={{ width: 34, cursor: 'pointer' }}>
               <Image
-                src="/Logo.svg"
+                src="https://blurclassic.online/avatar.png"
                 width={34}
                 height={39}
                 alt="BlurClassic"
@@ -101,7 +101,7 @@ const Navbar = () => {
             <Box css={{ width: 112, cursor: 'pointer' }}>
               {theme == 'dark' ? (
                 <Image
-                  src="/Logo.svg"
+                  src="https://blurclassic.online/Logo.png"
                   width={112}
                   height={36}
                   alt="BlurClassic"
