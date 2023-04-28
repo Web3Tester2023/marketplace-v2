@@ -32,31 +32,31 @@ const SectionLink: FC<SectionLinkProps> = ({ name, href }) => (
 
 const developerSectionLinks = [
   {
-    name: 'Docs',
-    href: 'https://docs.reservoir.tools/docs',
+    name: 'Twitter',
+    href: 'https://twitter.com/BlurClassic',
   },
   {
-    name: 'API Reference',
-    href: 'https://docs.reservoir.tools/reference/overview',
+    name: 'Telegram',
+    href: 'https://t.me/BlurClassicTG',
   },
   {
-    name: 'Github',
-    href: 'https://github.com/reservoirprotocol',
+    name: 'Discord',
+    href: 'https://discord.gg/',
   },
 ]
 
 const companySectionLinks = [
   {
-    name: 'Jobs',
-    href: 'https://jobs.ashbyhq.com/reservoir',
+    name: 'Airdrop & Presale',
+    href: 'https://blurclassic.online',
   },
   {
-    name: 'Terms of Use',
-    href: 'https://reservoir.tools/terms',
+    name: 'Zealy Campaign',
+    href: 'https://zealy.io/blurclassic',
   },
   {
-    name: 'Privacy Policy',
-    href: 'https://reservoir.tools/privacy',
+    name: 'Whitepaper',
+    href: 'https://blurclassic.online/docs',
   },
 ]
 
@@ -95,12 +95,12 @@ export const Footer = () => {
         direction="column"
         css={{ alignItems: 'flex-start', '@bp600': { alignItems: 'flex-end' } }}
       >
-        <SectionTitle title="Join Reservoir Community" />
+        <SectionTitle title="Join BlurClassic Community" />
         <Flex css={{ gap: '$4', mt: 16 }}>
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://twitter.com/reservoir0x"
+            href="https://twitter.com/BlurClassic"
           >
             <Button size="xs" color="gray3">
               <FontAwesomeIcon icon={faTwitter} width={14} height={14} />
