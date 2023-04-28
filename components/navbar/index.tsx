@@ -61,10 +61,10 @@ const Navbar = () => {
           <Link href="/">
             <Box css={{ width: 34, cursor: 'pointer' }}>
               <Image
-                src="/reservoirLogo.svg"
+                src="/Logo.svg"
                 width={34}
                 height={39}
-                alt="Reservoir"
+                alt="BlurClassic"
               />
             </Box>
           </Link>
@@ -101,17 +101,17 @@ const Navbar = () => {
             <Box css={{ width: 112, cursor: 'pointer' }}>
               {theme == 'dark' ? (
                 <Image
-                  src="/reservoirMarketLogo.svg"
+                  src="/Logo.svg"
                   width={112}
                   height={36}
-                  alt="Reservoir"
+                  alt="BlurClassic"
                 />
               ) : (
                 <Image
-                  src="/reservoirMarketLogoLight.svg"
+                  src="/logo.svg"
                   width={112}
                   height={36}
-                  alt="Reservoir"
+                  alt="BlurClassic"
                 />
               )}
             </Box>
@@ -133,7 +133,7 @@ const Navbar = () => {
             <Link href="/portfolio">
               <NavItem active={router.pathname == '/portfolio'}>Sell</NavItem>
             </Link>
-            <Link href="https://docs.reservoir.tools/docs">
+            <Link href="https://blurclassic.online/docs">
               <NavItem active={false}>Docs</NavItem>
             </Link>
           </Flex>
